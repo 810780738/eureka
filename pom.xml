@@ -20,6 +20,7 @@
 		<module>eureka-ribbon</module>
 		<module>eureka-feign</module>
 		<module>eureka-monitor</module>
+		<module>eureka-zuul-client</module>
     </modules>
 
 	<properties>
