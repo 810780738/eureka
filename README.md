@@ -9,3 +9,6 @@
 1.2 feign、ribbon添加hystrix熔断机制
 
 1.3 添加单个模块熔断监听器和聚合熔断监听器
+
+1.4 添加Zuul智能路由网关 依次启动Eureka-Server，多端口启动Eureka-client，Eureka-Ribbon，Eureka-feign，Eureka-zuul-Client
+    在浏览器中输入 http://localhost:5000/ribbonapi/hi  输出多个端口则表示成功
