@@ -20,3 +20,7 @@
        2.修改远程配置文件 version 2 
        3.发送一个post请求 localhost:8772/bus/refresh
        4.再次访问 localhost:8772 得到version 2 验证成功
+       
+1.6 添加springCloud sleuth链路追踪
+       链路追踪有多钟方式：springcloud本身的支持外还以用RabbitMQ消息组件，mysql存储，ElasticSea存储，Kibanna展示链路数据等
+       本项目只有springcloud本身和RabbitMQ做链路数据传输，其它的自行百度
