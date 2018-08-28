@@ -12,6 +12,7 @@ import org.springframework.stereotype.Component;
 public class HiHystrix implements EurekaFeignClient {
     @Override
     public String sayHiFromClientEureka(String name) {
+        System.out.println("Feign 负载熔断....");
         return "服务器内部错误，请稍后再试";
     }
 }
